@@ -18,10 +18,10 @@ export default function HomePage() {
         </div>
 
         <div className="z-10 container mx-auto px-6 flex flex-col items-center justify-center text-center">
-          <h1 className="text-[9vw] md:text-[7vw] leading-[0.85] font-medium tracking-tighter text-zinc-900 uppercase text-center">
+          <h1 className="text-[9vw] md:text-[7vw] leading-[0.85] font-normal tracking-tighter text-zinc-900 uppercase text-center">
             Architecture
-            <br />
-            Portfolio
+            <br className="mb-8" />
+            <span className="block mt-8">Portfolio</span>
           </h1>
         </div>
       </section>

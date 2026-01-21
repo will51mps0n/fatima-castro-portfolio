@@ -121,7 +121,7 @@ export default function ProjectDetailPage() {
               size={14}
               className="group-hover:-translate-x-1 transition-transform"
             />
-            Back to Projects
+            Projects
           </Link>
 
           {/* Project Header */}

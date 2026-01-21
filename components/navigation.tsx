@@ -41,7 +41,7 @@ export const Navigation = () => {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
-            className="fixed inset-0 bg-zinc-950 z-[60] text-white flex flex-col"
+            className="fixed inset-0 bg-zinc-100 z-[60] text-zinc-900 flex flex-col"
           >
             <div className="flex justify-between items-start px-6 py-6">
               <Link href="/" className="flex flex-col" onClick={() => setIsOpen(false)}>
@@ -51,7 +51,7 @@ export const Navigation = () => {
               </Link>
               <button
                 onClick={() => setIsOpen(false)}
-                className="group flex items-center gap-2 hover:text-zinc-400 transition-colors"
+                className="group flex items-center gap-2 hover:text-zinc-600 transition-colors"
               >
                 <X size={24} strokeWidth={1.5} />
               </button>
@@ -81,22 +81,22 @@ export const Navigation = () => {
                   ))}
                 </ul>
 
-                <div className="hidden md:flex flex-col justify-end pb-4 text-zinc-500">
+                <div className="hidden md:flex flex-col justify-end pb-4 text-zinc-600">
                   <p className="text-sm max-w-xs leading-relaxed">
                     Architecture student passionate about environmental design and sustainable building practices. Currently pursuing my Master's at Rice University while gaining hands-on experience in the field.
                   </p>
                   <div className="mt-8 grid grid-cols-2 gap-8 text-xs uppercase tracking-widest">
                     <div>
-                      <p className="text-white mb-2">Houston, TX</p>
+                      <p className="text-zinc-900 mb-2">Houston, TX</p>
                       <p>B.EnvD Texas A&M</p>
                       <p>M.Arch Rice Candidate</p>
                     </div>
                     <div>
-                      <p className="text-white mb-2">Connect</p>
-                      <a href="https://instagram.com/fatineux" className="hover:text-white cursor-pointer block">
+                      <p className="text-zinc-900 mb-2">Connect</p>
+                      <a href="https://instagram.com/fatineux" className="hover:text-zinc-900 cursor-pointer block">
                         Instagram
                       </a>
-                      <a href="https://linkedin.com/in/fatineux" className="hover:text-white cursor-pointer block">
+                      <a href="https://linkedin.com/in/fatineux" className="hover:text-zinc-900 cursor-pointer block">
                         LinkedIn
                       </a>
                     </div>

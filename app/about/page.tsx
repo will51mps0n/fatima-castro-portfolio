@@ -20,7 +20,7 @@ export default function StudioPage() {
             </div>
             <div className="lg:col-span-8">
               <p className="text-3xl md:text-5xl lg:text-6xl font-light leading-[1.1] tracking-tight mb-12">
-                Creating meaningful architecture through hands-on experience in design and community engagement.
+                Designing with purpose.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-sm leading-relaxed text-zinc-600">

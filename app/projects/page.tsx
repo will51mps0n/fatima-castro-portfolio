@@ -51,7 +51,7 @@ export default function ProjectsPage() {
         <div className="container mx-auto px-6">
           <div className="flex justify-between items-end mb-16">
             <h1 className="text-4xl md:text-6xl font-light tracking-tighter uppercase">
-              Projects
+              Selected Projects
             </h1>
           </div>
 
